@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/txtProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Producto"
+        android:textSize="14sp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/txtPrecioanterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Precio Anterior"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtPrecioactual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio Actual"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/txtDescuento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Descuento 10%"
+            android:textColor="@color/green"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtMsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12x $ 300 meses sin intereses"
+        android:textSize="12sp"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:id="@+id/txtEnvioGratis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envío gratis FULL"
+        android:textSize="12sp"
+        android:layout_marginBottom="2dp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+</LinearLayout>
